@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      label {
+        margin: 10px;
+      }
+      button{
+          width: 80px;
+          height: 40px;
+          padding: 10px;
+          margin: 10px;
+      }
+      tbody{
+          background-color: darkslategray;
+      }
+      td{
+          margin: 5px;
+          padding: 5px;
+          font-size: 16px;
+      }
+      thead{
+          background-color: goldenrod;
+      }
+      tfoot{
+          background-color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th colspan="2"><h2>SignIn</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label>First Name : </label></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>Last Name : </label></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth : </label></td>
+                <td>
+                    <select name="age" id="age">
+                        <option value="">Day</option>
+                      </select>
+                      <select name="age" id="age">
+                        <option value="">Month</option>
+                      </select>
+                      <select name="age" id="age">
+                        <option value="">Year</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>gender : </label></td>
+                <td>
+                    <label>male</label>
+                    <input type="radio" />
+                    <label>female</label>
+                    <input type="radio" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>country : </label></td>
+                <td>
+                    <select name="age" id="age">
+                        <option value="">country</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>E-mail : </label></td>
+                <td><input type="email" /></td>
+            </tr>
+            <tr>
+                <td><label>Phone : </label></td>
+                <td><input type="tel" /></td>
+            </tr>
+            <tr>
+                <td><label>Password : </label></td>
+                <td><input type="password" /></td>
+            </tr>
+            <tr>
+                <td><label>Confirm Password : </label></td>
+                <td><input type="password" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox">
+                <label>I Agree to the Terms of use</label>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Submit</button>
+                    <button>Cancel</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+  </body>
+</html>
